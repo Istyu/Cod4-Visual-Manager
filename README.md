@@ -26,7 +26,7 @@ Users can control the following settings by pressing different keys:
 ## Usage
 
 ### - V 1.0
-- Just inject the [iw3_visualmanager.dll](https://github.com/Istyu/Cod4-Visual-Manager/releases/download/IW3Visual/iw3_visualmanager.dll) to iw3mp.exe process.
+- Just inject the [iw3_visualmanager.dll](https://github.com/Istyu/Cod4-Visual-Manager/releases/tag/IW3visual) to iw3mp.exe process.
 - Now you can change the visual settings.
 
 ### - V 2.0
