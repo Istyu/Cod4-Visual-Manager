@@ -31,7 +31,7 @@ Users can control the following settings by pressing different keys:
 
 ### - V 2.0
 - Just place [cod4_client_asi_inj.asi](https://github.com/Istyu/Cod4-Visual-Manager/releases/download/IW3Visual/cod4_client_asi_inj.asi) into your miles folder. 
-- When you start cod4mp then injecting the [iw3_visualmanager.dll](https://github.com/Istyu/Cod4-Visual-Manager/releases/download/IW3Visual/iw3_visualmanager.dll).
+- When you start cod4mp then injecting the [iw3_visualmanager.dll](https://github.com/Istyu/Cod4-Visual-Manager/releases/tag/IW3Visual).
 ```
 Call of Duty 4 - Modern Warfare\
 ├── iw3mp.exe
