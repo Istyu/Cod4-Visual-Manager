@@ -57,8 +57,8 @@ The features are controlled using the following NUMPAD keys:
 - cod4x
 
 ## Changelog
-- V2.0
-- Add new features: 
+### V2.0 
+Add new features: 
 - Specular maps
 - Normal maps
 - Draw decals
