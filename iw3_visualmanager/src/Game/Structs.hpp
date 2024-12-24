@@ -86,4 +86,30 @@ namespace Game
 		bool(__cdecl *domainFunc)(dvar_s *, DvarValue);
 		dvar_s *hashNext;
 	};
+
+
+	typedef enum {
+		CA_UNINITIALIZED,
+		CA_DISCONNECTED, 	// not talking to a server
+		CA_AUTHORIZING,		// not used any more, was checking cd key
+		CA_CHALLENGING,		// sending challenge packets to the server
+		CA_CONNECTING,		// sending request packets to the server
+		CA_CONNECTED,		// netchan_t established, getting gamestate
+		CA_STATSSYNC,
+		CA_LOADING,			// only during cgame initialization, never during main loop
+		CA_PRIMED,			// got gamestate, waiting for first frame
+		CA_ACTIVE,			// game views should be displayed
+		CA_CINEMATIC		// playing a cinematic or a static pic, not connected to a server
+	} connstate_t;
+
+	typedef struct
+	{
+		byte unk1;
+		byte cl_running;
+		byte unk3;
+		byte unk4;
+		int  keyCatchers;
+		int  unk6;
+		connstate_t state;
+	}clientUIActives_t;
 }

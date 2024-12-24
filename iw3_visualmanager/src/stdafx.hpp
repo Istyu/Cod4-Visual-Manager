@@ -27,6 +27,9 @@
 #pragma comment(lib, "winmm.lib")
 #include <cstdint> // for uint32_t type
 
+#include <commctrl.h>  // Required to use the slider
+#pragma comment(lib, "comctl32.lib")
+
 #include <WinSock2.h>
 #include <unordered_map>
 
@@ -44,7 +47,7 @@
 #include <list>
 #include <algorithm>
 #include <ctime>
-#include <cstdio>
+#include <cstdio> // sprintf
 #include <utility>
 
 #include <sstream>
@@ -91,6 +94,8 @@ using namespace std::literals;
 #pragma warning(disable: 6387)
 #pragma warning(disable: 26812)
 
+const static DWORD cod4x_entry = (DWORD)GetModuleHandleA("cod4x_021.dll");
+
 #include "..\includes\injector\injector.hpp"
 //#include "..\includes\IniReader.h"
 
@@ -98,6 +103,7 @@ using namespace std::literals;
 #include "Game\Functions.hpp"
 #include "Game\Dvars.hpp"
 #include "Game\System.hpp"
+#include "Game\Patch.hpp"
 
 #include "Components\Modules\_common.hpp"
 #include "Components\Modules\_ui.hpp"

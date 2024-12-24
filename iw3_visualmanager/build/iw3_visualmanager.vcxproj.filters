@@ -28,6 +28,9 @@
     <ClCompile Include="..\src\Game\System.cpp">
       <Filter>src\Game</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Game\Patch.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\stdafx.hpp">
@@ -55,6 +58,9 @@
       <Filter>src\Components\Modules</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Game\System.hpp">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Patch.hpp">
       <Filter>src\Game</Filter>
     </ClInclude>
   </ItemGroup>

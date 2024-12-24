@@ -121,6 +121,7 @@
     <ClInclude Include="..\src\Components\Modules\_ui.hpp" />
     <ClInclude Include="..\src\Game\Dvars.hpp" />
     <ClInclude Include="..\src\Game\Functions.hpp" />
+    <ClInclude Include="..\src\Game\Patch.hpp" />
     <ClInclude Include="..\src\Game\Structs.hpp" />
     <ClInclude Include="..\src\Game\System.hpp" />
     <ClInclude Include="..\src\ManagerStuff.hpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="..\src\Game\System.cpp" />
     <ClCompile Include="..\src\ManagerStuff.cpp" />
     <ClCompile Include="..\src\stdafx.cpp" />
+    <ClCompile Include="..\src\Game\Patch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
