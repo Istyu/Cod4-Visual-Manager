@@ -17,7 +17,7 @@ Users can control the following settings by pressing different keys:
 - **Fullbright Mode**: Can be toggled on or off
 - **FPS Limit**: Three available values (125, 250, 333)
 - **FPS Counter**: Can be shown or hidden in-game
-### V2.0
+### - V 2.0
 - **Specular maps**: Can be toggled on or off
 - **Normal maps**: Can be toggled on or off
 - **Draw decals**: Can be toggled on or off
